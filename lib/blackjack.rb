@@ -20,9 +20,9 @@ def prompt_user
   print "#{phrase}"
 end
 
-def get_user_input("string")
-  gets.chomp
-  return 
+def get_user_input
+  gets.chomp.strip
+   
 end
 
 def end_game
