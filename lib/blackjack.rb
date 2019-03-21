@@ -1,5 +1,7 @@
 def welcome
-puts print "Welcome to the Blackjack Table." 
+phrase = "Welcome to the Blackjack Table." 
+puts #{phrase}
+print #{phrase}
 end
 
 def deal_card
