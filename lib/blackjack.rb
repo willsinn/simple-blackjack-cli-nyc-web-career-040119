@@ -10,7 +10,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-"Your cards add up to #{card_total}"
+phrase = "Your cards add up to #{card_total}"
 puts "#{phrase}"
 end
 
