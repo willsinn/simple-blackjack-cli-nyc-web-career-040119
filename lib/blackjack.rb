@@ -6,7 +6,7 @@ end
 
 def deal_card
   number = rand(1..11)
-  print "#{number}"
+  puts "#{number}"
 end
 
 def display_card_total
