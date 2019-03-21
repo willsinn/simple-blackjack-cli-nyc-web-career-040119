@@ -1,12 +1,12 @@
 def welcome
 phrase = "Welcome to the Blackjack Table." 
-puts #{phrase}
-print #{phrase}
+puts "#{phrase}"
+print "#{phrase}"
 end
 
 def deal_card
   number = 2+rand(6)+rand(5)
-  return number
+  print "#{number}"
 end
 
 def display_card_total
