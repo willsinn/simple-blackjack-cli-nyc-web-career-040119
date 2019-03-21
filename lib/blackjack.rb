@@ -5,7 +5,8 @@ print #{phrase}
 end
 
 def deal_card
-  # code #deal_card here
+  number = 2+rand(6)+rand(5)
+  return number
 end
 
 def display_card_total
