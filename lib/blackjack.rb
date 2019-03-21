@@ -22,7 +22,7 @@ end
 
 def get_user_input("h", "s", "exit")
   hit = "h" gets.chomp
-  stay = "s"
+  stay = "s" gets.chomp
 end
 
 def end_game
