@@ -20,7 +20,7 @@ def prompt_user
   print "#{phrase}"
 end
 
-def get_user_input(string)
+def get_user_input
 gets.chomp
 end
 
