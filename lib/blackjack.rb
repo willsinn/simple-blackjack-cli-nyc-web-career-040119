@@ -5,7 +5,7 @@ print "#{phrase}"
 end
 
 def deal_card
-  number = 2 +rand(6)+rand(5)
+  number = rand(1..11)
   print "#{number}"
 end
 
