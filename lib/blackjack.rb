@@ -17,6 +17,7 @@ end
 def prompt_user
   phrase = "Type 'h' to hit or 's' to stay"
   puts "#{phrase}"
+  print "#{phrase}"
 end
 
 def get_user_input
