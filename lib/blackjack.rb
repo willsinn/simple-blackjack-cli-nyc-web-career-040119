@@ -15,8 +15,8 @@ puts "#{phrase}"
 end
 
 def prompt_user
-  
-  # code #prompt_user here
+  phrase = "Type 'h' to hit or 's' to stay"
+  puts "#{phrase}"
 end
 
 def get_user_input
