@@ -20,8 +20,8 @@ def prompt_user
   print "#{phrase}"
 end
 
-def get_user_input
-  # code #get_user_input here
+def get_user_input(input)
+  user_input = gets
 end
 
 def end_game
