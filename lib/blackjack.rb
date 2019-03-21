@@ -10,8 +10,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-phrase = "Your cards add up to #{card_total}"
-puts "#{phrase}"
+puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
