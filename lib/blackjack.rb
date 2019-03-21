@@ -21,7 +21,8 @@ def prompt_user
 end
 
 def get_user_input("h", "s", "exit")
-  user_input = gets.chomp
+  hit = "h" gets.chomp
+  
   return user_input
 end
 
